@@ -1,24 +1,46 @@
-.main-nav {
+
+/* header elements */
+header {
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+   align-items:center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
     margin: auto;
+    left: 0%;
+    vertical-align: middle;
+    vertical-align: baseline;
+}
+
+li a {
+    display: block;
     text-align: center;
+    text-decoration: none;
+}
+
+.nav-item {
+    vertical-align: baseline;
+}
+
+#burger {
+    height: 30px
+    
 }
 
 #logo {
-    margin: 0%;
-    padding: 15px 0px;
-    text-align: center;
-    font-size: 25px;
+    height: 60px;
 }
-
-.list-inline {
-    text-align: center;
-}
-
-.main-icon {
-    font-size: 20px;
-    padding: 15px 0px;
-    text-align: center;
-    float: right;
-    padding-right: 10px;
-}
-
