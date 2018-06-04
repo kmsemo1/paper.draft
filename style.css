@@ -22,14 +22,14 @@ li {
     float: left;
     margin: auto;
     left: 0%;
-    vertical-align: middle;
-    vertical-align: baseline;
 }
 
 li a {
-    display: block;
+    color: black;
+    display: inline-block;
     text-align: center;
     text-decoration: none;
+    padding-left: 20px;
 }
 
 .nav-item {
