@@ -37,9 +37,15 @@ li a {
 }
 
 #burger {
-    height: 30px
-    
+    height: 30px;
 }
+
+.navIcons {
+    height: 30px;
+    padding-left: 15px;
+    text-align: right;
+}
+
 
 #logo {
     height: 60px;
