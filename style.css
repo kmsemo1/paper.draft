@@ -10,6 +10,8 @@ header {
 nav {
     display: flex;
    align-items:center;
+   width: 100%;
+   
 }
 
 ul {
@@ -21,7 +23,6 @@ ul {
 li {
     float: left;
     margin: auto;
-    left: 0%;
 }
 
 li a {
@@ -32,9 +33,6 @@ li a {
     padding-left: 20px;
 }
 
-.nav-item {
-    vertical-align: baseline;
-}
 
 #burger {
     height: 30px;
@@ -43,10 +41,12 @@ li a {
 .navIcons {
     height: 30px;
     padding-left: 15px;
-    text-align: right;
+    float: right;
 }
 
 
 #logo {
     height: 60px;
 }
+
+
