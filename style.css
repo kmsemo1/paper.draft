@@ -49,4 +49,10 @@ li a {
     height: 60px;
 }
 
+/* side bar with current date and weather etc. */
+
+#weatherIcon {
+    width: 100px;
+}
+
 
