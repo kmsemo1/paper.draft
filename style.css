@@ -59,4 +59,35 @@ li a {
     width: 580px;
 }
 
+/* headliner large card */
+
+/* .item-1 {
+    display: grid;
+} */
+
+.lgFont {
+    color: black;
+    margin: 3px;
+    font-family: 'Old Standard TT', serif;
+}
+
+.subTitle {
+    color: #b3b3b3;
+}
+
+
+#authorImg {
+    width: 50px;
+    vertical-align: middle;
+}
+
+#authorTitle {
+    display: inline-block;
+    
+}
+
+#lgAuthorSec {
+    align-items: center;
+}
+
 
