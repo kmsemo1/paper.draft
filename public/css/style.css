@@ -1,5 +1,5 @@
+  /* header elements */
 
-/* header elements */
 header {
     width: 100%;
     top: 0px;
@@ -38,9 +38,13 @@ li a {
     height: 30px;
 }
 
-.navIcons {
+.navIcon {
+    margin-left: 150px;
+}
+
+.iconsNav {
     height: 30px;
-    padding-left: 15px;
+    padding-left: 5px;
     float: right;
 }
 
@@ -55,15 +59,11 @@ li a {
     width: 100px;
 }
 
+
+/* big card in headliners */
 #topStory {
     width: 580px;
 }
-
-/* headliner large card */
-
-/* .item-1 {
-    display: grid;
-} */
 
 .lgFont {
     color: black;
@@ -90,4 +90,16 @@ li a {
     align-items: center;
 }
 
+/* ==================== CSS GRID OF HEADLINE CONTENT ========================= */
+.container {
+    display: grid;
+    grid-template-columns: 200px 700px 500px; 
+    grid-template-rows: 100px 100px 100px 100px;  
+    grid-gap: 10px;
+}
+
+.lgHeadliner {
+    grid-column: 2;
+    grid-row: 1/ span 5;
+}
 

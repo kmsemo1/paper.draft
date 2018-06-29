@@ -49,25 +49,29 @@
                 </li>
             </ul>
 
-            <div>
-                <img src="../images/search.png" alt="Search" class="navIcons">
+            <div class="navIcon">
+                <span>
+                    <img src="../images/search.png" alt="Search" class="iconsNav">
+                </span>
+                <span>
+                    <img src="../images/plane.png" alt="Post" class="iconsNav">
+                </span>
+                <span>
+                    <img src="../images/bell.png" alt="Notification" class="iconsNav">
+                </span>
+                <span>
+                    <img src="../images/profile.png" alt="Profile" class="iconsNav">
+                </span>
             </div>
-            <div>
-                <img src="../images/plane.png" alt="Post" class="navIcons">
-            </div>
-            <div>
-                <img src="../images/bell.png" alt="Notification" class="navIcons">
-            </div>
-            <div>
-                <img src="../images/profile.png" alt="Profile" class="navIcons">
-            </div>
-
         </nav>
     </header>
 
-    <div class="grid-container">
 
-        <div class="grid-item">
+
+    <!-- SIDE BAR WITH WEATHER AND LOCATION -->
+    <div class="container">
+
+        <div class="sidebar">
             <span>
                 <p id="currentDate"></p>
             </span>
@@ -76,41 +80,28 @@
             </span>
         </div>
 
-        
-
-            <!-- grid item, containing a card -->
-            <div class="item-1">
-                <a href="" class="card">
-                    <div class="thumb">
-                        <img src="../images/top-1.png" alt="Top Story" id="topStory">
+        <!-- grid item, containing a card -->
+        <div class="lgHeadliner">
+            <a href="" class="card">
+                <div class="thumb">
+                    <img src="../images/top-1.png" alt="Top Story" id="topStory">
+                </div>
+                <article>
+                    <a>
+                        <h5 class="lgFont subTitle" id="lgLocation">Local • Public Safety 5h ago</h5>
+                        <h1 class="lgFont" id="lgArticleTitle">Hard Landing Reported at Roman Airport</h1>
+                    </a>
+                    <div id="lgAuthorSec">
+                        <img src="../images/ye.png" alt="Author Profile Img" id="authorImg">
+                        <span>
+                            <h3 class="lgFont subTitle" id="authorTitle">By
+                                <Strong>Terri Figueroa</Strong> • Union Tribune</h3>
+                        </span>
                     </div>
-                    <article>
-                        <a>
-                            <h5 class="lgFont subTitle" id="lgLocation">Local • Public Safety 5h ago</h5>
-                            <h1 class="lgFont" id="lgArticleTitle">Hard Landing Reported at Roman Airport</h1>
-                        </a>
-                        <div id="lgAuthorSec">
-                            <img src="../images/ye.png" alt="Author Profile Img" id="authorImg">
-                            <span>
-                                <h3 class="lgFont subTitle" id="authorTitle">By
-                                    <Strong>Terri Figueroa</Strong> • Union Tribune</h3>
-                            </span>
-                        </div>
 
-                    </article>
-                </a>
-            </div>
-
-            <!-- grid item, containing a card -->
-            <!-- <div class="item-2">
-                ...
-            </div> -->
-
-
-
-
+                </article>
+            </a>
         </div>
-
 
     </div>
 
