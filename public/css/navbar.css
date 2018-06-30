@@ -1,0 +1,54 @@
+  /* ============ NAVBAR STYLING CSS =============== */
+header {
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+nav {
+   display: flex;
+   align-items:center;
+   width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    margin: auto;
+}
+
+li a {
+    color: black;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+#burger {
+    height: 30px;
+}
+
+.navIcon {
+    margin-left: 150px;
+}
+
+.iconsNav {
+    height: 30px;
+    padding-left: 5px;
+    float: right;
+}
+
+
+#logo {
+    height: 60px;
+}
+
+
+
