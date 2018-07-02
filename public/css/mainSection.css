@@ -1,0 +1,15 @@
+/* ============== MAIN BODY STYLE ================= */
+/* ----- MAIN STORY CONTENT -------- */
+
+
+
+
+/* ============== MAIN BODY GRID ================= */
+/* --- hr line breaks --- */
+.mainContainer {
+    display: grid;
+    grid-template-columns: 250px 295px 295px 295px; 
+    grid-template-rows: 100px 100px 100px 100px;  
+    grid-gap: 5px;
+}
+
